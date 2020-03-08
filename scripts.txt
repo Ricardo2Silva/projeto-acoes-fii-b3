@@ -1,0 +1,15 @@
+criaçao do banco de dados 07/03
+
+-foi criado o banco de dados no qual vou trabalhar,nao esta totalmente fatorado,podendo ser ajustado conforme o andamento do projeto.
+
+-iniciando  o projeto node 07/03
+-instalando as dependencias a serem usadas
+{
+	nodemon
+	mysql
+	express
+	express-load
+	body-parser
+}
+
+A principio podendo acrescentar mais dependencias conforme o andamento do projeto e se necessario para melhor desempenho do mesmo.

@@ -1,0 +1,26 @@
+{
+  "name": "projeto-acoes-fii-b3",
+  "version": "1.0.0",
+  "description": "projeto para calcular preço-medio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricardo2Silva/projeto-acoes-fii-b3.git"
+  },
+  "author": "Ricardo Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ricardo2Silva/projeto-acoes-fii-b3/issues"
+  },
+  "homepage": "https://github.com/Ricardo2Silva/projeto-acoes-fii-b3#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-load": "^1.1.16",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.2"
+  }
+}
