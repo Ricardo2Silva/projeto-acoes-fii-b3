@@ -4,8 +4,10 @@
   "description": "projeto para calcular preço-medio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ricardo2Silva/projeto-acoes-fii-b3.git"

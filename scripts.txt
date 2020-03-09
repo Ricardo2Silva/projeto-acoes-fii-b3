@@ -13,3 +13,18 @@ criaçao do banco de dados 07/03
 }
 
 A principio podendo acrescentar mais dependencias conforme o andamento do projeto e se necessario para melhor desempenho do mesmo.
+
+*1
+criaçao do servidor
+
+*2
+isolando banco de dados e criando a conexao para podermos adicionar as operaçoes do banco de dados
+
+*3 vamos criar uma funcao construtora e adicionar as operacoes do banco de dados que lidam com as acoes;
+
+//erro encontrado durante o processo: app.repositories.acaoRespository is not a constructor.
+Resoluçao: tinha esquecido de importar pelo module.exports
+
+Utilizando  as funçoes para alterar os objetos do banco de dados encontramos um erro
+//erro encontrado durante o processo :dbUtil is not a function
+Resoluçao: Na hora  de fazer o require estava esquecendo de invocar a funçao,pois antes de invocar estava fazendo a requisiçao de um objeto. 
